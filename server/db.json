@@ -1,0 +1,360 @@
+{
+  "users": [
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$pJ2gG9YZTGzx6f7YCBP9D.St6MiTan.KdsqBbIWvO5GAMbFpV5A8e",
+      "name": "Test",
+      "id": 1
+    },
+    {
+      "email": "test1@test.com",
+      "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+      "name": "Test 1",
+      "id": 2
+    },
+    {
+      "email": "test2@test.com",
+      "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+      "name": "Test 2",
+      "id": 3
+    },
+    {
+      "email": "test3@test.com",
+      "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+      "name": "Test 3",
+      "id": 4
+    }
+  ],
+  "teams": [
+    {
+      "name": "Design Team 1",
+      "description": "This is design team.",
+      "color": "hsla(22, 100%, 40%, 1)",
+      "bgColor": "hsla(22, 100%, 90%, 1)",
+      "stage": "done",
+      "owner": "test@test.com",
+      "users": [
+        {
+          "email": "test@test.com",
+          "name": "Test",
+          "id": 1
+        },
+        {
+          "email": "test1@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 1",
+          "id": 2
+        },
+        {
+          "email": "test2@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 2",
+          "id": 3
+        },
+        {
+          "email": "test3@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 3",
+          "id": 4
+        }
+      ],
+      "timestamp": 1663760187023,
+      "id": 1
+    },
+    {
+      "name": "Tech Team 1",
+      "description": "This is tech team.",
+      "color": "hsla(122, 100%, 40%, 1)",
+      "bgColor": "hsla(122, 100%, 90%, 1)",
+      "stage": "blocked",
+      "owner": "test@test.com",
+      "users": [
+        {
+          "email": "test@test.com",
+          "name": "Test",
+          "id": 1
+        },
+        {
+          "email": "test2@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 2",
+          "id": 3
+        },
+        {
+          "email": "test3@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 3",
+          "id": 4
+        },
+        {
+          "email": "test1@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 1",
+          "id": 2
+        }
+      ],
+      "timestamp": 1663760247871,
+      "id": 2
+    },
+    {
+      "name": "Architecher Team 1",
+      "description": "This is architecher team.",
+      "color": "hsla(223, 100%, 40%, 1)",
+      "bgColor": "hsla(223, 100%, 90%, 1)",
+      "stage": "doing",
+      "owner": "test@test.com",
+      "users": [
+        {
+          "email": "test@test.com",
+          "name": "Test",
+          "id": 1
+        },
+        {
+          "email": "test3@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 3",
+          "id": 4
+        }
+      ],
+      "timestamp": 1663760284262,
+      "id": 3
+    },
+    {
+      "name": "Tech Team 2",
+      "description": "This is tech team.",
+      "color": "hsla(45, 100%, 40%, 1)",
+      "bgColor": "hsla(45, 100%, 90%, 1)",
+      "stage": "review",
+      "owner": "test3@test.com",
+      "users": [
+        {
+          "email": "test3@test.com",
+          "name": "Test 3",
+          "id": 4
+        },
+        {
+          "email": "test@test.com",
+          "password": "$2a$10$pJ2gG9YZTGzx6f7YCBP9D.St6MiTan.KdsqBbIWvO5GAMbFpV5A8e",
+          "name": "Test",
+          "id": 1
+        }
+      ],
+      "timestamp": 1663760341750,
+      "id": 4
+    },
+    {
+      "name": "Dev Team 1",
+      "description": "This is dev team.",
+      "color": "hsla(3, 100%, 40%, 1)",
+      "bgColor": "hsla(3, 100%, 90%, 1)",
+      "stage": "ready",
+      "owner": "test1@test.com",
+      "users": [
+        {
+          "email": "test1@test.com",
+          "name": "Test 1",
+          "id": 2
+        },
+        {
+          "email": "test2@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 2",
+          "id": 3
+        },
+        {
+          "email": "test@test.com",
+          "password": "$2a$10$pJ2gG9YZTGzx6f7YCBP9D.St6MiTan.KdsqBbIWvO5GAMbFpV5A8e",
+          "name": "Test",
+          "id": 1
+        },
+        {
+          "email": "test3@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 3",
+          "id": 4
+        }
+      ],
+      "timestamp": 1663760431535,
+      "id": 5
+    },
+    {
+      "name": "UI/UX Team 1",
+      "description": "This is graphic designer team.",
+      "color": "hsla(98, 100%, 40%, 1)",
+      "bgColor": "hsla(98, 100%, 90%, 1)",
+      "stage": "ready",
+      "owner": "test1@test.com",
+      "users": [
+        {
+          "email": "test1@test.com",
+          "name": "Test 1",
+          "id": 2
+        },
+        {
+          "email": "test@test.com",
+          "password": "$2a$10$pJ2gG9YZTGzx6f7YCBP9D.St6MiTan.KdsqBbIWvO5GAMbFpV5A8e",
+          "name": "Test",
+          "id": 1
+        },
+        {
+          "email": "test2@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 2",
+          "id": 3
+        },
+        {
+          "email": "test3@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 3",
+          "id": 4
+        }
+      ],
+      "timestamp": 1663760465167,
+      "id": 6
+    },
+    {
+      "name": "Developer Team 1",
+      "description": "This is developer team.",
+      "color": "hsla(110, 100%, 40%, 1)",
+      "bgColor": "hsla(110, 100%, 90%, 1)",
+      "stage": "doing",
+      "owner": "test1@test.com",
+      "users": [
+        {
+          "email": "test1@test.com",
+          "name": "Test 1",
+          "id": 2
+        }
+      ],
+      "timestamp": 1663760543575,
+      "id": 7
+    },
+    {
+      "name": "Network Managment Team 1",
+      "description": "This is network managment team.",
+      "color": "hsla(183, 100%, 40%, 1)",
+      "bgColor": "hsla(183, 100%, 90%, 1)",
+      "stage": "doing",
+      "owner": "test1@test.com",
+      "users": [
+        {
+          "email": "test1@test.com",
+          "name": "Test 1",
+          "id": 2
+        }
+      ],
+      "timestamp": 1663760610071,
+      "id": 8
+    },
+    {
+      "name": "Architecher Team 2",
+      "description": "This is architecher team.",
+      "color": "hsla(296, 100%, 40%, 1)",
+      "bgColor": "hsla(296, 100%, 90%, 1)",
+      "stage": "backlog",
+      "owner": "test2@test.com",
+      "users": [
+        {
+          "email": "test2@test.com",
+          "name": "Test 2",
+          "id": 3
+        },
+        {
+          "email": "test@test.com",
+          "password": "$2a$10$pJ2gG9YZTGzx6f7YCBP9D.St6MiTan.KdsqBbIWvO5GAMbFpV5A8e",
+          "name": "Test",
+          "id": 1
+        },
+        {
+          "email": "test3@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 3",
+          "id": 4
+        },
+        {
+          "email": "test1@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 1",
+          "id": 2
+        }
+      ],
+      "timestamp": 1663760647678,
+      "id": 9
+    },
+    {
+      "name": "Graphic Designer Team",
+      "description": "This is graphic designer team",
+      "color": "hsla(200, 100%, 40%, 1)",
+      "bgColor": "hsla(200, 100%, 90%, 1)",
+      "stage": "review",
+      "owner": "test2@test.com",
+      "users": [
+        {
+          "email": "test2@test.com",
+          "name": "Test 2",
+          "id": 3
+        },
+        {
+          "email": "test3@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 3",
+          "id": 4
+        },
+        {
+          "email": "test@test.com",
+          "password": "$2a$10$pJ2gG9YZTGzx6f7YCBP9D.St6MiTan.KdsqBbIWvO5GAMbFpV5A8e",
+          "name": "Test",
+          "id": 1
+        }
+      ],
+      "timestamp": 1663768232312,
+      "id": 10
+    },
+    {
+      "name": "Architecher Team 3",
+      "description": "This is archtecher team.",
+      "color": "hsla(208, 100%, 40%, 1)",
+      "bgColor": "hsla(208, 100%, 90%, 1)",
+      "stage": "backlog",
+      "owner": "test3@test.com",
+      "users": [
+        {
+          "email": "test3@test.com",
+          "name": "Test 3",
+          "id": 4
+        },
+        {
+          "email": "test2@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 2",
+          "id": 3
+        }
+      ],
+      "timestamp": 1663768344376,
+      "id": 11
+    },
+    {
+      "name": "App Develop Team 1",
+      "description": "This is app develop team.",
+      "color": "hsla(184, 100%, 40%, 1)",
+      "bgColor": "hsla(184, 100%, 90%, 1)",
+      "stage": "ready",
+      "owner": "test1@test.com",
+      "users": [
+        {
+          "email": "test1@test.com",
+          "name": "Test 1",
+          "id": 2
+        },
+        {
+          "email": "test3@test.com",
+          "password": "$2a$10$u714baLcGV3zRimVAzos/.4TjuPDj1PMHqQg11w0MA2fjygQ35dGm",
+          "name": "Test 3",
+          "id": 4
+        }
+      ],
+      "timestamp": 1663768409662,
+      "id": 12
+    }
+  ]
+}
